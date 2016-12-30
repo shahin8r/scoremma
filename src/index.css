@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding-top: 5em;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background: #fcfcfc;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+footer {
+  color: #aaa;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+footer a {
+  color: #aaa;
+  text-decoration: none;
+}
