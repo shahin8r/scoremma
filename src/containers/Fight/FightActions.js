@@ -40,7 +40,7 @@ const fetchFights = () => {
     .then((events) => {
       const currentEvent = events.filter(isEventNow)[0]
 
-      if (currentEvent.length < 1) {
+      if (!currentEvent) {
         return fetchFightsFromFirebase((response) => {
           dispatch({
             type: 'FETCH_FIGHTS_FULFILLED',
